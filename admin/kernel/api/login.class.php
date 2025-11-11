@@ -97,8 +97,11 @@ class Login {
 
 		// Increment the failed count and last failed session date
 		$user = $this->db_users->get(array('username'=>$args['username']));
-		$count = $user['session_fail_count'] + 1;
-		$this->db_users->set(array('username'=>$args['username'], 'session_fail_count'=>$count, 'session_date'=>time()));
+		if($user)
+		{
+			$count = $user['session_fail_count'] + 1;
+			$this->db_users->set(array('username'=>$args['username'], 'session_fail_count'=>$count, 'session_date'=>time()));
+		}
 
 		return false;
 	}
