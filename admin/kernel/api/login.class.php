@@ -259,7 +259,7 @@ class Login {
 			$ip = getenv('REMOTE_ADDR');
 
 		// Hash
-		return sha1($agent);
+		return sha1($agent . $ip);
 	}
 
 } // END class LOGIN
