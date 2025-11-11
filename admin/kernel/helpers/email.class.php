@@ -1,11 +1,11 @@
 <?php
 
 /*
- * Nibbleblog -
- * http://www.nibbleblog.com
+ * HermesBlog -
+ * http://www.hermesblog.com
  * Author Diego Najar
 
- * All Nibbleblog code is released under the GNU General Public License.
+ * All HermesBlog code is released under the GNU General Public License.
  * See COPYRIGHT.txt and LICENSE.txt.
 */
 
@@ -20,11 +20,11 @@ class Email {
 
 		$message = '<html>
 						<head>
-							<title>Nibbleblog</title>
+							<title>HermesBlog</title>
 						</head>
 						<body>
 						<div style="margin: 0px auto; border: 1px solid #F1F1F1; padding: 10px;">
-							<div style="font-size: 26px; padding: 10px; background-color: #F1F1F1;">Nibbleblog</div>
+							<div style="font-size: 26px; padding: 10px; background-color: #F1F1F1;">HermesBlog</div>
 							'.$args['message'].'
 						</div>
 						</body>

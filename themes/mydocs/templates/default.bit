@@ -36,8 +36,8 @@
 		</a>
 		<div class="links">
 			<a href="<?php echo HTML_PATH_ROOT ?>">Home</a>
-			<a href="http://demo.nibbleblog.com">Demo</a>
-			<a href="http://forum.nibbleblog.com">Forum</a>
+			<a href="http://demo.hermesblog.com">Demo</a>
+			<a href="http://forum.hermesblog.com">Forum</a>
 		</div>
 	</header>
 

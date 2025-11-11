@@ -1,6 +1,6 @@
 <?php
 
-// If Facebook comments and Disqus are disabled then enabled Nibbleblog comments
+// If Facebook comments and Disqus are disabled then enabled HermesBlog comments
 if( !$Comment->disqus_enabled() && !$Comment->facebook_enabled() )
 {
 

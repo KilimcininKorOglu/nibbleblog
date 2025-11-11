@@ -1,11 +1,11 @@
 <?php
 
 /*
- * Nibbleblog -
- * http://www.nibbleblog.com
+ * HermesBlog -
+ * http://www.hermesblog.com
  * Author Diego Najar
 
- * All Nibbleblog code is released under the GNU General Public License.
+ * All HermesBlog code is released under the GNU General Public License.
  * See COPYRIGHT.txt and LICENSE.txt.
 */
 
@@ -126,8 +126,8 @@ class Login {
 		$this->session_started = false;
 
 		// Clean remember me
-		setcookie('nibbleblog_hash', '', time()-42000);
-		setcookie('nibbleblog_id', '', time()-42000);
+		setcookie('hermesblog_hash', '', time()-42000);
+		setcookie('hermesblog_id', '', time()-42000);
 	}
 
 	/*
@@ -149,12 +149,12 @@ class Login {
 		require(FILE_KEYS);
 
 		// Check cookies
-		if( !isset($_COOKIE['nibbleblog_hash']) || !isset($_COOKIE['nibbleblog_id']) )
+		if( !isset($_COOKIE['hermesblog_hash']) || !isset($_COOKIE['hermesblog_id']) )
 			return false;
 
 		// Sanitize cookies
-		$cookie_hash	= Validation::sanitize_html($_COOKIE['nibbleblog_hash']);
-		$cookie_id		= Validation::sanitize_int($_COOKIE['nibbleblog_id']);
+		$cookie_hash	= Validation::sanitize_html($_COOKIE['hermesblog_hash']);
+		$cookie_id		= Validation::sanitize_int($_COOKIE['hermesblog_id']);
 
 		// Check user id
 		if(!isset($_USER[$cookie_id]))
@@ -163,8 +163,8 @@ class Login {
 			$this->db_users->set_blacklist();
 
 			// Clean cookies
-			setcookie('nibbleblog_hash', '', time()-42000);
-			setcookie('nibbleblog_id', '', time()-42000);
+			setcookie('hermesblog_hash', '', time()-42000);
+			setcookie('hermesblog_id', '', time()-42000);
 
 			return false;
 		}
@@ -179,8 +179,8 @@ class Login {
 			$this->db_users->set_blacklist();
 
 			// Clean cookies
-			setcookie('nibbleblog_hash', '', time()-42000);
-			setcookie('nibbleblog_id', '', time()-42000);
+			setcookie('hermesblog_hash', '', time()-42000);
+			setcookie('hermesblog_id', '', time()-42000);
 
 			return false;
 		}
@@ -205,8 +205,8 @@ class Login {
 		$tmp_hash = sha1($this->get_username().$this->get_key().$_KEYS[2]);
 
 		// Set cookies
-		setcookie('nibbleblog_hash', $tmp_hash, time()+(3600*24*15));
-		setcookie('nibbleblog_id', $this->get_user_id(), time()+(3600*24*15));
+		setcookie('hermesblog_hash', $tmp_hash, time()+(3600*24*15));
+		setcookie('hermesblog_id', $this->get_user_id(), time()+(3600*24*15));
 
 		return true;
 	}
@@ -251,7 +251,7 @@ class Login {
 		// User agent
 		$agent = getenv('HTTP_USER_AGENT');
 		if(empty($agent))
-			$agent = 'Nibbleblog/4.0 (Mr Nibbler Protocol)';
+			$agent = 'HermesBlog/4.0 (Mr Nibbler Protocol)';
 
 		// User IP - Use REMOTE_ADDR only to prevent spoofing
 		// X-Forwarded-For and HTTP_CLIENT_IP headers can be easily manipulated by attackers

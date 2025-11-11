@@ -6,7 +6,7 @@ $_LANG_CONFIG['DATA'] = array(
 	'last_update'=>'20/02/2013',
 	'author'=>'Diego Najar',
 	'email'=>'dignajar@gmail.com',
-	'url'=>'http://diego.nibbleblog.com'
+	'url'=>'http://diego.hermesblog.com'
 );
 
 $_LANG['LAST_COMMENTS'] = 'Last comments';
@@ -106,7 +106,7 @@ $_LANG['USERNAME_AND_PASSWORD'] = 'Username & Password';
 $_LANG['MANAGE_PLUGINS'] = 'Manage plugins';
 $_LANG['PLUGINS'] = 'Plugins';
 $_LANG['EDIT_POST'] = 'Edit post';
-$_LANG['SIGN_IN_TO_NIBBLEBLOG_ADMIN_AREA'] = 'Sign in to Nibbleblog admin area';
+$_LANG['SIGN_IN_TO_HERMESBLOG_ADMIN_AREA'] = 'Sign in to HermesBlog admin area';
 $_LANG['POST_HAS_BEEN_PUBLISHED_SUCCESSFULLY'] = 'Post has been published successfully';
 $_LANG['PLEASE_ENABLE_JAVASCRIPT_IN_YOUR_BROWSER'] = 'Please enable JavaScript in your browser';
 $_LANG['INSTALLATION_COMPLETE'] = 'Installation complete';
@@ -120,15 +120,15 @@ $_LANG['EXPERT_MODE'] = 'Expert mode';
 $_LANG['ADMINISTRATOR_USERNAME'] = 'Administrator username';
 $_LANG['ADMINISTRATOR_PASSWORD'] = 'Administrator password';
 $_LANG['ADMINISTRATOR_EMAIL'] = 'Administrator e-mail';
-$_LANG['WELCOME_TO_NIBBLEBLOG'] = 'Welcome to Nibbleblog';
+$_LANG['WELCOME_TO_HERMESBLOG'] = 'Welcome to HermesBlog';
 $_LANG['CHOOSE_YOUR_LANGUAGE'] = 'Choose your language';
 $_LANG['WRITING_TEST_ON_CONTENT_DIRECTORY'] = 'Writing test on "content" directory';
 $_LANG['INSTALLATION_LINE1'] = 'Congratulations!';
-$_LANG['INSTALLATION_LINE2'] = 'Your Nibbleblog installation is now complete.';
+$_LANG['INSTALLATION_LINE2'] = 'Your HermesBlog installation is now complete.';
 $_LANG['INSTALLATION_LINE3'] = 'To manage your blog go to the following address';
 $_LANG['INSTALLATION_LINE4'] = 'or visit your new blog';
 $_LANG['INSTALLATION_LINE5'] = 'If you need support please visit the forum';
-$_LANG['WELCOME_POST_TITLE'] = 'Welcome to Nibbleblog';
+$_LANG['WELCOME_POST_TITLE'] = 'Welcome to HermesBlog';
 
 $_LANG['WELCOME_POST_LINE1'] = 'Congratulations, you have your blog installed and working.';
 $_LANG['WELCOME_POST_LINE2'] = 'Start publishing from your dashboard {{DASHBOARD_LINK}}';
@@ -151,7 +151,7 @@ $_LANG['THIS_FIELD_IS_SET_EACH_TIME_YOU_CHANGE_THE_LANGUAGE_OF_THE_BLOG'] = 'Thi
 $_LANG['UNCATEGORIZED'] = 'Uncategorised';
 $_LANG['MUSIC'] = 'Music';
 $_LANG['VIDEOS'] = 'Videos';
-$_LANG['POWERED_BY_NIBBLEBLOG'] = 'Powered by Nibbleblog';
+$_LANG['POWERED_BY_HERMESBLOG'] = 'Powered by HermesBlog';
 $_LANG['CUSTOM'] = 'Custom';
 $_LANG['SELECT_A_FORMAT_FOR_DISPLAYING_THE_DATES'] = 'Select a format for displaying the dates or custom option so you can create your own.';
 $_LANG['ENABLE_WYSIWYG_EDITOR'] = 'Enable WYSIWYG editor';
@@ -255,7 +255,7 @@ $_LANG['UPLOAD_A_NEW_IMAGE'] = 'Upload a new image';
 $_LANG['OR'] = 'OR';
 $_LANG['SELECT_AN_IMAGE_FROM_YOUR_BAG'] = 'Select an image from your bag';
 
-$_LANG['THERE_IS_A_NEW_VERSION'] = 'There is a new version of Nibbleblog available';
+$_LANG['THERE_IS_A_NEW_VERSION'] = 'There is a new version of HermesBlog available';
 $_LANG['VERSION'] = 'Version';
 $_LANG['RELEASE_DATE'] = 'Release date';
 
@@ -312,8 +312,8 @@ $_LANG['REGIONAL'] = 'Regional';
 $_LANG['INSERT_IMAGE_FROM_URL'] = 'Insert image from URL';
 
 $_LANG['BLUDIT_SYNC'] = 'Bludit Sync';
-$_LANG['NIBBLEBLOG_URL_SYNC'] = 'Nibbleblog URL Sync';
-$_LANG['NIBBLEBLOG_KEY_SYNC'] = 'Nibbleblog Key Sync';
+$_LANG['HERMESBLOG_URL_SYNC'] = 'HermesBlog URL Sync';
+$_LANG['HERMESBLOG_KEY_SYNC'] = 'HermesBlog Key Sync';
 
 $_LANG['CATEGORY_NAME'] = 'Category name';
 $_LANG['CATEGORY_SLUG'] = 'Category slug';
@@ -322,7 +322,7 @@ $_LANG['INSTALLED_PLUGINS'] = 'Installed plugins';
 $_LANG['PLUGINS_AVAILABLE_FOR_INSTALL'] = 'Plugins available for install';
 
 $_LANG['ABSOLUTE_URL_ADDRESS_OF_YOUR_BLOG'] = 'Absolute URL address of your blog. Example http://www.domain.com/directory/';
-$_LANG['ABSOLUTE_ADDRESS_THAT_CONTAINS_THE_BLOGS_FILE_SYSTEM'] = 'Absolute address that contains the blog\'s file system, if you upload the content of Nibbleblog to your root you should only put a "/", and if you upload it into another directory then it should be "/directory/".';
+$_LANG['ABSOLUTE_ADDRESS_THAT_CONTAINS_THE_BLOGS_FILE_SYSTEM'] = 'Absolute address that contains the blog\'s file system, if you upload the content of HermesBlog to your root you should only put a "/", and if you upload it into another directory then it should be "/directory/".';
 
 $_LANG['COVER_ATTRIBUTE'] = 'Cover attribute';
 

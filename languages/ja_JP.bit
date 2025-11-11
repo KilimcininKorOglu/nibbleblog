@@ -106,7 +106,7 @@ $_LANG['USERNAME_AND_PASSWORD'] = 'ユーザー名とパスワード';
 $_LANG['MANAGE_PLUGINS'] = 'プラグイン管理';
 $_LANG['PLUGINS'] = 'プラグイン';
 $_LANG['EDIT_POST'] = '投稿を編集';
-$_LANG['SIGN_IN_TO_NIBBLEBLOG_ADMIN_AREA'] = 'Nibbleblog管理エリアへサインイン';
+$_LANG['SIGN_IN_TO_HERMESBLOG_ADMIN_AREA'] = 'HermesBlog管理エリアへサインイン';
 $_LANG['POST_HAS_BEEN_PUBLISHED_SUCCESSFULLY'] = '投稿は公開されています';
 $_LANG['PLEASE_ENABLE_JAVASCRIPT_IN_YOUR_BROWSER'] = 'ブラウザのJavaScriptを有効にしてください';
 $_LANG['INSTALLATION_COMPLETE'] = 'インストールは完了しました!';
@@ -120,15 +120,15 @@ $_LANG['EXPERT_MODE'] = 'エキスパートモード';
 $_LANG['ADMINISTRATOR_USERNAME'] = '管理者ユーザー名';
 $_LANG['ADMINISTRATOR_PASSWORD'] = '管理者パスワード';
 $_LANG['ADMINISTRATOR_EMAIL'] = '管理者メールアドレス';
-$_LANG['WELCOME_TO_NIBBLEBLOG'] = 'Nibbleblogへようこそ';
+$_LANG['WELCOME_TO_HERMESBLOG'] = 'HermesBlogへようこそ';
 $_LANG['CHOOSE_YOUR_LANGUAGE'] = '言語を選択してください';
 $_LANG['WRITING_TEST_ON_CONTENT_DIRECTORY'] = '"content"ディレクトリの書き込みテスト';
 $_LANG['INSTALLATION_LINE1'] = 'おめでとうございます！';
-$_LANG['INSTALLATION_LINE2'] = 'Nibbleblogのインストールは完了しました。';
+$_LANG['INSTALLATION_LINE2'] = 'HermesBlogのインストールは完了しました。';
 $_LANG['INSTALLATION_LINE3'] = 'ブログを管理するにはこちらのアドレスにアクセスします';
 $_LANG['INSTALLATION_LINE4'] = '新しいブログをご覧になるにはこちらにアクセスします';
 $_LANG['INSTALLATION_LINE5'] = 'サポートが必要な場合はフォーラム(英語)にアクセスしてください';
-$_LANG['WELCOME_POST_TITLE'] = 'Nibbleblogへようこそ';
+$_LANG['WELCOME_POST_TITLE'] = 'HermesBlogへようこそ';
 
 $_LANG['WELCOME_POST_LINE1'] = 'おめでとうございます。ブログのインストールは完了し正常に動作しています。';
 $_LANG['WELCOME_POST_LINE2'] = '記事を書き始めるにはダッシュボードにアクセスします {{DASHBOARD_LINK}}';
@@ -151,7 +151,7 @@ $_LANG['THIS_FIELD_IS_SET_EACH_TIME_YOU_CHANGE_THE_LANGUAGE_OF_THE_BLOG'] = 'こ
 $_LANG['UNCATEGORIZED'] = 'カテゴリーなし';
 $_LANG['MUSIC'] = '音楽';
 $_LANG['VIDEOS'] = '動画';
-$_LANG['POWERED_BY_NIBBLEBLOG'] = 'Powered by Nibbleblog';
+$_LANG['POWERED_BY_HERMESBLOG'] = 'Powered by HermesBlog';
 $_LANG['CUSTOM'] = 'カスタム';
 $_LANG['SELECT_A_FORMAT_FOR_DISPLAYING_THE_DATES'] = '日付の書式を選択するか、カスタムオプションから日付の書式を作成します。';
 $_LANG['ENABLE_WYSIWYG_EDITOR'] = 'WYSIWYGエディターを有効';
@@ -255,7 +255,7 @@ $_LANG['UPLOAD_A_NEW_IMAGE'] = '新規画像をアップロード';
 $_LANG['OR'] = 'もしくは';
 $_LANG['SELECT_AN_IMAGE_FROM_YOUR_BAG'] = 'フォルダから画像を選択';
 
-$_LANG['THERE_IS_A_NEW_VERSION'] = '新しいバージョンのNibbleblogが利用できます';
+$_LANG['THERE_IS_A_NEW_VERSION'] = '新しいバージョンのHermesBlogが利用できます';
 $_LANG['VERSION'] = 'バージョン';
 $_LANG['RELEASE_DATE'] = 'リリース日';
 
@@ -312,8 +312,8 @@ $_LANG['REGIONAL'] = '地域';
 $_LANG['INSERT_IMAGE_FROM_URL'] = 'URLを指定して画像を挿入';
 
 $_LANG['BLUDIT_SYNC'] = 'Bludit シンク';
-$_LANG['NIBBLEBLOG_URL_SYNC'] = 'Nibbleblog 同期URL';
-$_LANG['NIBBLEBLOG_KEY_SYNC'] = 'Nibbleblog 同期鍵';
+$_LANG['HERMESBLOG_URL_SYNC'] = 'HermesBlog 同期URL';
+$_LANG['HERMESBLOG_KEY_SYNC'] = 'HermesBlog 同期鍵';
 
 $_LANG['CATEGORY_NAME'] = 'カテゴリー名';
 $_LANG['CATEGORY_SLUG'] = 'カテゴリースラッグ';
@@ -322,7 +322,7 @@ $_LANG['INSTALLED_PLUGINS'] = 'インストール済みプラグイン';
 $_LANG['PLUGINS_AVAILABLE_FOR_INSTALL'] = 'インストール可能なプラグイン';
 
 $_LANG['ABSOLUTE_URL_ADDRESS_OF_YOUR_BLOG'] = 'ブログの絶対アドレス(URL)を指定します。例: http://www.domain.com/directory/';
-$_LANG['ABSOLUTE_ADDRESS_THAT_CONTAINS_THE_BLOGS_FILE_SYSTEM'] = 'ブログのシステムがある絶対アドレスを指定します。Nibbleblogを(ドメインの)ルートにアップロードしたならば "/"、そうではなく別のディレクトリならば "/directory/" となります。';
+$_LANG['ABSOLUTE_ADDRESS_THAT_CONTAINS_THE_BLOGS_FILE_SYSTEM'] = 'ブログのシステムがある絶対アドレスを指定します。HermesBlogを(ドメインの)ルートにアップロードしたならば "/"、そうではなく別のディレクトリならば "/directory/" となります。';
 
 $_LANG['COVER_ATTRIBUTE'] = 'カバー属性';
 

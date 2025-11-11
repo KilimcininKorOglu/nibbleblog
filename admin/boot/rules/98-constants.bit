@@ -1,7 +1,7 @@
 <?php
 /*
- * Nibbleblog
- * http://www.nibbleblog.com
+ * HermesBlog
+ * http://www.hermesblog.com
 
  * Require
  *
@@ -13,10 +13,10 @@
 // =====================================================================
 //	SYSTEM INFORMATION
 // =====================================================================
-define('NIBBLEBLOG_VERSION',		'4.0.5');
-define('NIBBLEBLOG_NAME',		'Espresso');
-define('NIBBLEBLOG_RELEASE_DATE',	'05/09/2015');
-define('NIBBLEBLOG_BUILD',		2392406953);
+define('HERMESBLOG_VERSION',		'4.0.5');
+define('HERMESBLOG_NAME',		'Espresso');
+define('HERMESBLOG_RELEASE_DATE',	'05/09/2015');
+define('HERMESBLOG_BUILD',		2392406953);
 
 // =====================================================================
 //	DEBUG

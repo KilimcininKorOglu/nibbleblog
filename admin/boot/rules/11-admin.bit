@@ -1,7 +1,7 @@
 <?php
 /*
- * Nibbleblog
- * http://www.nibbleblog.com
+ * HermesBlog
+ * http://www.hermesblog.com
 
  * Require
  *
@@ -20,7 +20,7 @@ $layout = array(
 	'controller'=>'user/login.bit',
 	'view'=>'user/login.bit',
 	'template'=>'login/index.bit',
-	'title'=>$_LANG['SIGN_IN_TO_NIBBLEBLOG_ADMIN_AREA'],
+	'title'=>$_LANG['SIGN_IN_TO_HERMESBLOG_ADMIN_AREA'],
 	'id_sidebar'=>null
 );
 
@@ -63,7 +63,7 @@ $controllers['plugins']['uninstall']	= array('security'=>true, 'title'=>$_LANG['
 $controllers['plugins']['config']		= array('security'=>true, 'title'=>$_LANG['PLUGINS'], 'controller'=>'config', 'view'=>'config', 'template'=>$default_template, 'id_sidebar'=>27);
 
 $controllers['user']['logout']			= array('security'=>true,  'title'=>$_LANG['LOGOUT'], 'controller'=>'logout', 'view'=>'logout', 'template'=>'login', 'id_sidebar'=>28);
-$controllers['user']['login']			= array('security'=>false, 'title'=>$_LANG['SIGN_IN_TO_NIBBLEBLOG_ADMIN_AREA'], 'controller'=>'login', 'view'=>'login', 'template'=>'login', 'id_sidebar'=>29);
+$controllers['user']['login']			= array('security'=>false, 'title'=>$_LANG['SIGN_IN_TO_HERMESBLOG_ADMIN_AREA'], 'controller'=>'login', 'view'=>'login', 'template'=>'login', 'id_sidebar'=>29);
 $controllers['user']['forgot']			= array('security'=>false, 'title'=>$_LANG['CHANGE_PASSWORD'], 'controller'=>'forgot', 'view'=>'forgot', 'template'=>$default_template, 'id_sidebar'=>30);
 $controllers['user']['send_forgot']		= array('security'=>false, 'title'=>$_LANG['FORGOT_PASSWORD'], 'controller'=>'send_forgot', 'view'=>'send_forgot', 'template'=>'login', 'id_sidebar'=>31);
 
@@ -75,10 +75,10 @@ if(isset($controllers[$url['controller']][$url['action']]))
 	if($parameters['security'])
 	{
 		if(!isset($Login))
-			exit('Nibbleblog security error - Obj $Login not found');
+			exit('HermesBlog security error - Obj $Login not found');
 
 		if(!$Login->is_logged())
-			exit('Nibbleblog security error - User not logged');
+			exit('HermesBlog security error - User not logged');
 	}
 
 	$layout['controller'] 	= $dirname.$parameters['controller'].'.bit';

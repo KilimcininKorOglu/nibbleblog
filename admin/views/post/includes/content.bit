@@ -7,10 +7,10 @@ echo Html::div_open( array('class'=>'form_block') );
 
 echo Html::div_close();
 
-// Nibbleblog media
+// HermesBlog media
 include('nb_media.bit');
 
-// Nibbleblog code
+// HermesBlog code
 include('nb_code.bit');
 
 ?>
@@ -70,7 +70,7 @@ $(document).ready(function() {
 		},
 		setup: function(ed) {
 			ed.addButton('nb-image', {
-				title: 'Nibbleblog media',
+				title: 'HermesBlog media',
 				label: 'Nb media',
 				icon: 'image',
 				onclick: function()
@@ -80,7 +80,7 @@ $(document).ready(function() {
 			});
 
 			ed.addButton('nb-code', {
-				title: 'Nibbleblog code',
+				title: 'HermesBlog code',
 				label: 'Nb code',
 				icon: 'template',
 				onclick: function()

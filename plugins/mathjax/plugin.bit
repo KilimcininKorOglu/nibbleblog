@@ -3,7 +3,7 @@
 $_PLUGIN_CONFIG['DATA'] = array(
 	'author'=>'Felipe Hernández',
 	'version'=>'1.0',
-	'url'=>'http://fhernandez.cl/post/nibbleblogPluginMathjax/'
+	'url'=>'http://fhernandez.cl/post/hermesblogPluginMathjax/'
 );
 
 class PLUGIN_MATHJAX extends Plugin

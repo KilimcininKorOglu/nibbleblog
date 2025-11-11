@@ -1,17 +1,17 @@
 <?php
 
 /*
- * Nibbleblog -
- * http://www.nibbleblog.com
+ * HermesBlog -
+ * http://www.hermesblog.com
  * Author Diego Najar
 
- * All Nibbleblog code is released under the GNU General Public License.
+ * All HermesBlog code is released under the GNU General Public License.
  * See COPYRIGHT.txt and LICENSE.txt.
 */
 
 /*
  * For 1-Click Setup
- * This are the POST variables to install Nibbleblog without the default form.
+ * This are the POST variables to install HermesBlog without the default form.
  * You can delete/replace this file, is independent from the blog, it only for install.
  *
  * $_POST = array('name', 'slogan', 'url', 'path', 'email', 'username', 'password')
@@ -132,7 +132,7 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' )
 	// General
 	$obj->addChild('name',					$_POST['name']);
 	$obj->addChild('slogan',				$_POST['slogan']);
-	$obj->addChild('footer',				$_LANG['POWERED_BY_NIBBLEBLOG']);
+	$obj->addChild('footer',				$_LANG['POWERED_BY_HERMESBLOG']);
 	$obj->addChild('advanced_post_options', 0);
 
 	// Advanced
@@ -291,9 +291,9 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' )
 	$content = Text::replace_assoc(
 			array(
 				'{{DASHBOARD_LINK}}'=>'<a href="./admin.php">'.$blog_address.'admin.php</a>',
-				'{{FACEBOOK_LINK}}'=>'<a target="_blank" href="https://www.facebook.com/nibbleblog">Facebook</a>',
-				'{{TWITTER_LINK}}'=>'<a target="_blank" href="https://twitter.com/nibbleblog">Twitter</a>',
-				'{{GOOGLEPLUS_LINK}}'=>'<a target="_blank" href="https://plus.google.com/+Nibbleblog">Google+</a>'
+				'{{FACEBOOK_LINK}}'=>'<a target="_blank" href="https://www.facebook.com/hermesblog">Facebook</a>',
+				'{{TWITTER_LINK}}'=>'<a target="_blank" href="https://twitter.com/hermesblog">Twitter</a>',
+				'{{GOOGLEPLUS_LINK}}'=>'<a target="_blank" href="https://plus.google.com/+HermesBlog">Google+</a>'
 			),
 			$content
 	);
@@ -341,7 +341,7 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' )
 <head>
 	<meta charset="utf-8">
 	<meta name='robots' content='noindex,nofollow' />
-	<title>Nibbleblog Installer</title>
+	<title>HermesBlog Installer</title>
 
 	<script src="./admin/js/jquery/jquery.js"></script>
 	<script src="./admin/js/functions.js"></script>
@@ -490,7 +490,7 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' )
 
 		<header id="head">
 			<?php
-				echo Html::h1( array('content'=>$_LANG['WELCOME_TO_NIBBLEBLOG']) );
+				echo Html::h1( array('content'=>$_LANG['WELCOME_TO_HERMESBLOG']) );
 			?>
 		</header>
 
@@ -508,7 +508,7 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' )
 				echo Html::p( array('content'=>$_LANG['INSTALLATION_LINE2']) );
 				echo Html::p( array('content'=>$_LANG['INSTALLATION_LINE3'].' <a href="./admin.php">'.$blog_address.'admin.php</a>') );
 				echo Html::p( array('content'=>$_LANG['INSTALLATION_LINE4'].' <a href="./">'.$blog_address.'</a>') );
-				echo Html::p( array('content'=>$_LANG['INSTALLATION_LINE5'].' <a href="http://forum.nibbleblog.com">http://forum.nibbleblog.com</a>') );
+				echo Html::p( array('content'=>$_LANG['INSTALLATION_LINE5'].' <a href="http://forum.hermesblog.com">http://forum.hermesblog.com</a>') );
 			?>
 		</section>
 
@@ -577,7 +577,7 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' )
 				echo Html::div_close();
 
 				echo Html::div_open( array('class'=>'dependency') );
-					echo Html::link( array('class'=>'description', 'content'=>$_LANG['WRITING_TEST_ON_CONTENT_DIRECTORY'], 'href'=>'http://docs.nibbleblog.com/post/system-requirements/#how_to_set_up_permissions', 'target'=>'_blank') );
+					echo Html::link( array('class'=>'description', 'content'=>$_LANG['WRITING_TEST_ON_CONTENT_DIRECTORY'], 'href'=>'http://docs.hermesblog.com/post/system-requirements/#how_to_set_up_permissions', 'target'=>'_blank') );
 
 					if( $writing_test )
 					{
@@ -634,7 +634,7 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' )
 		</section>
 
 		<footer>
-			<p><a href="http://nibbleblog.com">Nibbleblog <?php echo NIBBLEBLOG_VERSION ?> "<?php echo NIBBLEBLOG_NAME ?>"</a> ©2009 - <?php echo date('Y') ?> | Developed by Diego Najar | <?php echo Html::link( array('content'=>$_LANG['EXPERT_MODE'], 'href'=>'./install.php?expert=true&language='.$_GET['language']) ) ?></p>
+			<p><a href="http://hermesblog.com">HermesBlog <?php echo HERMESBLOG_VERSION ?> "<?php echo HERMESBLOG_NAME ?>"</a> ©2009 - <?php echo date('Y') ?> | Developed by Diego Najar | <?php echo Html::link( array('content'=>$_LANG['EXPERT_MODE'], 'href'=>'./install.php?expert=true&language='.$_GET['language']) ) ?></p>
 		</footer>
 
 	</div>
@@ -654,7 +654,7 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' )
 		$("#js_language").change(function () {
 			var locale = $("#js_language option:selected").val();
 			var url = location.pathname+"?language="+locale;
-			console.log("Nibbleblog: Url="+url);
+			console.log("HermesBlog: Url="+url);
 			location.replace(url);
 		});
 

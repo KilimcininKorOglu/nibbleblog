@@ -1,11 +1,11 @@
 <?php
 
 /*
- * Nibbleblog -
- * http://www.nibbleblog.com
+ * HermesBlog -
+ * http://www.hermesblog.com
  * Author Diego Najar
 
- * All Nibbleblog code is released under the GNU General Public License.
+ * All HermesBlog code is released under the GNU General Public License.
  * See COPYRIGHT.txt and LICENSE.txt.
 */
 
@@ -69,7 +69,7 @@ $translit_enable = isset($_LANG['TRANSLIT'])?$_LANG['TRANSLIT']:false;
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Nibbleblog Updater <?php echo UPDATER_VERSION ?></title>
+	<title>HermesBlog Updater <?php echo UPDATER_VERSION ?></title>
 
 	<style type="text/css">
 		body {
@@ -133,7 +133,7 @@ $translit_enable = isset($_LANG['TRANSLIT'])?$_LANG['TRANSLIT']:false;
 
 		<header id="head">
 			<?php
-				echo Html::h1( array('content'=>$_LANG['WELCOME_TO_NIBBLEBLOG']) );
+				echo Html::h1( array('content'=>$_LANG['WELCOME_TO_HERMESBLOG']) );
 			?>
 		</header>
 
@@ -400,7 +400,7 @@ $translit_enable = isset($_LANG['TRANSLIT'])?$_LANG['TRANSLIT']:false;
 		</section>
 
 		<footer>
-			<p><a href="http://nibbleblog.com">Nibbleblog <?php echo NIBBLEBLOG_VERSION ?> "<?php echo NIBBLEBLOG_NAME ?>"</a> ©2009 - <?php echo date('Y') ?> | Developed by Diego Najar</p>
+			<p><a href="http://hermesblog.com">HermesBlog <?php echo HERMESBLOG_VERSION ?> "<?php echo HERMESBLOG_NAME ?>"</a> ©2009 - <?php echo date('Y') ?> | Developed by Diego Najar</p>
 		</footer>
 
 	</div>

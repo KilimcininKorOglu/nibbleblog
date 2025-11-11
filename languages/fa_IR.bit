@@ -105,7 +105,7 @@ $_LANG['USERNAME_AND_PASSWORD'] = 'نام کاربری & رمزعبور';
 $_LANG['MANAGE_PLUGINS'] = 'مدیریت پلاگین ها';
 $_LANG['PLUGINS'] = 'پلاگین ها';
 $_LANG['EDIT_POST'] = 'ویرایش پست';
-$_LANG['SIGN_IN_TO_NIBBLEBLOG_ADMIN_AREA'] = 'ورود به بخش مدیریت Nibbleblog ';
+$_LANG['SIGN_IN_TO_HERMESBLOG_ADMIN_AREA'] = 'ورود به بخش مدیریت HermesBlog ';
 $_LANG['POST_HAS_BEEN_PUBLISHED_SUCCESSFULLY'] = 'مطلب با موافقیت منتشر شد';
 $_LANG['PLEASE_ENABLE_JAVASCRIPT_IN_YOUR_BROWSER'] = 'لطفا جاوااسکریپت را در مرورگر خود فعال کنید.';
 $_LANG['INSTALLATION_COMPLETE'] = 'نصب به صورت کامل';
@@ -119,15 +119,15 @@ $_LANG['EXPERT_MODE'] = 'شکل حرفه ای';
 $_LANG['ADMINISTRATOR_USERNAME'] = 'نام کاربری مدیریت';
 $_LANG['ADMINISTRATOR_PASSWORD'] = 'رمزعبور مدیریت';
 $_LANG['ADMINISTRATOR_EMAIL'] = 'رایانامه مدیریت';
-$_LANG['WELCOME_TO_NIBBLEBLOG'] = ' خوش آمدید Nibbleblog به ';
+$_LANG['WELCOME_TO_HERMESBLOG'] = ' خوش آمدید HermesBlog به ';
 $_LANG['CHOOSE_YOUR_LANGUAGE'] = 'انتخاب زبان';
 $_LANG['WRITING_TEST_ON_CONTENT_DIRECTORY'] = 'نوشتن آزمایشی در دایرکتوری محتوای';
 $_LANG['INSTALLATION_LINE1'] = 'تبریک!';
-$_LANG['INSTALLATION_LINE2'] = 'شما اکنون به صورت کامل نصب شده است Nibbleblog .';
+$_LANG['INSTALLATION_LINE2'] = 'شما اکنون به صورت کامل نصب شده است HermesBlog .';
 $_LANG['INSTALLATION_LINE3'] = 'برای مدیریت وبلاگتان به آدرس زیر بروید';
 $_LANG['INSTALLATION_LINE4'] = 'ویا بازدید از وبلاگ جدیدتان';
 $_LANG['INSTALLATION_LINE5'] = 'اگر نیاز  به پشتیبانی دارید لطفا از انجمن بازدید کنید';
-$_LANG['WELCOME_POST_TITLE'] = ' خوش آمدید Nibbleblog به ';
+$_LANG['WELCOME_POST_TITLE'] = ' خوش آمدید HermesBlog به ';
 
 $_LANG['WELCOME_POST_LINE1'] = 'تبریک میگوییم،وبلاگ شما نصب و قابل استفاده است.';
 $_LANG['WELCOME_POST_LINE2'] = 'شروع انتشار از داشبورد خود {{DASHBOARD_LINK}}';
@@ -150,7 +150,7 @@ $_LANG['THIS_FIELD_IS_SET_EACH_TIME_YOU_CHANGE_THE_LANGUAGE_OF_THE_BLOG'] = 'ا�
 $_LANG['UNCATEGORIZED'] = 'دسته بندی نشده';
 $_LANG['MUSIC'] = 'موزیک';
 $_LANG['VIDEOS'] = 'ویدیوها';
-$_LANG['POWERED_BY_NIBBLEBLOG'] = 'قدرت گرفته شده از Nibbleblog';
+$_LANG['POWERED_BY_HERMESBLOG'] = 'قدرت گرفته شده از HermesBlog';
 $_LANG['CUSTOM'] = 'Custom';
 $_LANG['SELECT_A_FORMAT_FOR_DISPLAYING_THE_DATES'] = 'انتخاب نحوه ی نمایش تاریخ و یا ایجاد گزینه سفارشی شخصی برای آن.';
 $_LANG['ENABLE_WYSIWYG_EDITOR'] = 'فعال سازی ویرایشگر WYSIWYG';
@@ -251,7 +251,7 @@ $_LANG['UPLOAD_A_NEW_IMAGE'] = 'آپلود یک تصویر جدید';
 $_LANG['OR'] = 'یا';
 $_LANG['SELECT_AN_IMAGE_FROM_YOUR_BAG'] = 'یک تصویر از کیف خود انتخاب کنید';
 
-$_LANG['THERE_IS_A_NEW_VERSION'] = 'یک نسخه جدید از Nibbleblog  در دسترس وجود دارد.';
+$_LANG['THERE_IS_A_NEW_VERSION'] = 'یک نسخه جدید از HermesBlog  در دسترس وجود دارد.';
 $_LANG['VERSION'] = 'نسخه';
 $_LANG['RELEASE_DATE'] = 'تاریخ انتشار';
 
@@ -308,8 +308,8 @@ $_LANG['REGIONAL'] = 'منطقه ای';
 $_LANG['INSERT_IMAGE_FROM_URL'] = 'درج تصویر از آدرس اینترنتی';
 
 $_LANG['BLUDIT_SYNC'] = 'Bludit همگام سازی';
-$_LANG['NIBBLEBLOG_URL_SYNC'] = 'آدرس URL همگام سازی Nibbleblog';
-$_LANG['NIBBLEBLOG_KEY_SYNC'] = 'کلید همگام سازی Nibbleblog';
+$_LANG['HERMESBLOG_URL_SYNC'] = 'آدرس URL همگام سازی HermesBlog';
+$_LANG['HERMESBLOG_KEY_SYNC'] = 'کلید همگام سازی HermesBlog';
 
 $_LANG['CATEGORY_NAME'] = 'نام موضوع';
 $_LANG['CATEGORY_SLUG'] = 'شعار موضوع';
@@ -318,7 +318,7 @@ $_LANG['INSTALLED_PLUGINS'] = 'پلاگین های نصب شده';
 $_LANG['PLUGINS_AVAILABLE_FOR_INSTALL'] = 'پلاگین های در دسترس برای نصب';
 
 $_LANG['ABSOLUTE_URL_ADDRESS_OF_YOUR_BLOG'] = 'آدرس یو آر ال مطلق به بلاگ شما مثال http://www.domain.com/directory/';
-$_LANG['ABSOLUTE_ADDRESS_THAT_CONTAINS_THE_BLOGS_FILE_SYSTEM'] = 'آدرس مطلق که شامل وبلاگ\'ها فایل سیستم, if you upload the content of Nibbleblog to your root you should only put a "/", and if you upload it into another directory then it should be "/مسیر/".';
+$_LANG['ABSOLUTE_ADDRESS_THAT_CONTAINS_THE_BLOGS_FILE_SYSTEM'] = 'آدرس مطلق که شامل وبلاگ\'ها فایل سیستم, if you upload the content of HermesBlog to your root you should only put a "/", and if you upload it into another directory then it should be "/مسیر/".';
 
 $_LANG['COVER_ATTRIBUTE'] = 'مشخصه کاور';
 

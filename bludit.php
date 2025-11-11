@@ -3,11 +3,11 @@ header('content-type: application/json; charset=utf-8');
 header("access-control-allow-origin: *");
 
 /*
- * Nibbleblog -
- * http://www.nibbleblog.com
+ * HermesBlog -
+ * http://www.hermesblog.com
  * Author Diego Najar
 
- * All Nibbleblog code is released under the GNU General Public License.
+ * All HermesBlog code is released under the GNU General Public License.
  * See COPYRIGHT.txt and LICENSE.txt.
 */
 
@@ -91,10 +91,10 @@ require('admin/boot/blog.bit');
 require(FILE_KEYS);
 
 if(!isset($_KEYS[0]))
-	exit(json_encode(array('error'=>'Nibbleblog: Error key 0')));
+	exit(json_encode(array('error'=>'HermesBlog: Error key 0')));
 
 if(!isset($_KEYS[1]))
-	exit(json_encode(array('error'=>'Nibbleblog: Error key 1')));
+	exit(json_encode(array('error'=>'HermesBlog: Error key 1')));
 
 // This hash represent your blog on Bludit
 $mark = Crypt::get_hash($_KEYS[0]);
@@ -103,7 +103,7 @@ $mark = Crypt::get_hash($_KEYS[0]);
 $key_for_sync = Crypt::get_hash($_KEYS[1]);
 
 if($url['sync']!=$key_for_sync)
-	exit(json_encode(array('error'=>'Nibbleblog: Error key for sync')));
+	exit(json_encode(array('error'=>'HermesBlog: Error key for sync')));
 
 // Prevent flood requests
 // $_DB_USERS->set_blacklist();

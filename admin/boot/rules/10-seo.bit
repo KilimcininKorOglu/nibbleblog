@@ -1,7 +1,7 @@
 <?php
 /*
- * Nibbleblog
- * http://www.nibbleblog.com
+ * HermesBlog
+ * http://www.hermesblog.com
 
  * Require
  * $settings
@@ -20,7 +20,7 @@
 
 	$seo['friendly_urls'] = $settings['friendly_urls'];
 
-	$seo['generator'] = 'Nibbleblog';
+	$seo['generator'] = 'HermesBlog';
 	$seo['author'] = $settings['seo_author'];
 
 // =====================================================================

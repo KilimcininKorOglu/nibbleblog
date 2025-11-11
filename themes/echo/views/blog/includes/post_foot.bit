@@ -24,7 +24,7 @@ echo '<ul class="info">';
 		}
 		else
 		{
-			// Nibbleblog comments
+			// HermesBlog comments
 			echo '<li><a href="'.$post['permalink'].'#comment_form">'.$_LANG['COMMENTS'].' ('.count($post['comments']).')</a></li>';
 		}
 	}

@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name='robots' content='noindex,nofollow' />
 
-	<title>Nibbleblog</title>
+	<title>HermesBlog</title>
 
 	<link rel="stylesheet" type="text/css" href="<?php echo HTML_PATH_ADMIN_TEMPLATES.'default/css/normalize.css' ?>" />
 	<link rel="stylesheet" type="text/css" href="<?php echo HTML_PATH_ADMIN_TEMPLATES.'login/css/main.css' ?>" />

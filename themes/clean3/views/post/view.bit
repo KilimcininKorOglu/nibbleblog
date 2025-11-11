@@ -10,7 +10,7 @@ if(Post::allow_comments())
 
 	include('facebook_comments.bit');
 
-	include('nibbleblog_comments.bit');
+	include('hermesblog_comments.bit');
 }
 
 ?>

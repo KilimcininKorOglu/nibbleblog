@@ -61,7 +61,7 @@ echo Html::form_open( array('id'=>'js_form', 'name'=>'form', 'method'=>'post') )
 
 	echo Html::separator( array('content'=>$_LANG['VERSION']) );
 	echo Html::div_open( array('class'=>'form_block') );
-		echo '<p><a href="http://nibbleblog.com">Nibbleblog '.NIBBLEBLOG_VERSION.' "'.NIBBLEBLOG_NAME.'"</a> - Developed by Diego Najar</p>';
+		echo '<p><a href="http://hermesblog.com">HermesBlog '.HERMESBLOG_VERSION.' "'.HERMESBLOG_NAME.'"</a> - Developed by Diego Najar</p>';
 	echo Html::div_close();
 
 	// BUTTONS

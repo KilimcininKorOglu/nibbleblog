@@ -6,7 +6,7 @@ echo Html::div( array('class'=>'dashboard_title', 'content'=>$_LANG['NOTIFICATIO
 
 	echo Html::div_open( array('id'=>'js_notification_version', 'class'=>'notification img_notification_version') );
 		echo Html::div( array('class'=>'type', 'content'=>$_LANG['THERE_IS_A_NEW_VERSION']) );
-		echo Html::div( array('class'=>'info', 'content'=>$_LANG['VERSION'].': <span id="js_version"></span> - '.$_LANG['RELEASE_DATE'].': <span id="js_release"></span> - <a target="_blank" href="http://www.nibbleblog.com">Nibbleblog.com</a>') );
+		echo Html::div( array('class'=>'info', 'content'=>$_LANG['VERSION'].': <span id="js_version"></span> - '.$_LANG['RELEASE_DATE'].': <span id="js_release"></span> - <a target="_blank" href="http://www.hermesblog.com">HermesBlog.com</a>') );
 	echo Html::div_close();
 
 	foreach($notifications as $notification)
@@ -45,12 +45,12 @@ echo Html::div_close();
 $(document).ready(function() {
 
 	$.ajax({
-		url: "http://www.nibbleblog.com/version.php",
+		url: "http://www.hermesblog.com/version.php",
 		type: "GET",
 		dataType: "jsonp",
 		success: function(json)
 		{
-			if(json.build > <?php echo NIBBLEBLOG_BUILD ?>)
+			if(json.build > <?php echo HERMESBLOG_BUILD ?>)
 			{
 				$("#js_version").html(json.version);
 				$("#js_release").html(json.release);

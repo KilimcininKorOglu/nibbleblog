@@ -14,8 +14,8 @@ if($post['allow_comments'])
 	}
 	else
 	{
-		// Nibbleblog comments
-		include('comments_nibbleblog.bit');
+		// HermesBlog comments
+		include('comments_hermesblog.bit');
 	}
 }
 

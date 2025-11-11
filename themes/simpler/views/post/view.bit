@@ -9,7 +9,7 @@ include('disqus_comments.bit');
 // Facebook comments
 include('facebook_comments.bit');
 
-// Nibbleblog comments
-include('nibbleblog_comments.bit');
+// HermesBlog comments
+include('hermesblog_comments.bit');
 
 ?>

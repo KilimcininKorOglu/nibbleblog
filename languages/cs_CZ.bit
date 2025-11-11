@@ -106,7 +106,7 @@ $_LANG['USERNAME_AND_PASSWORD'] = 'Přihlášení';
 $_LANG['MANAGE_PLUGINS'] = 'Administrace zásuvných modulů';
 $_LANG['PLUGINS'] = 'Zásuvné moduly';
 $_LANG['EDIT_POST'] = 'Upravit příspěvek';
-$_LANG['SIGN_IN_TO_NIBBLEBLOG_ADMIN_AREA'] = 'Přihlasit se do administrace';
+$_LANG['SIGN_IN_TO_HERMESBLOG_ADMIN_AREA'] = 'Přihlasit se do administrace';
 $_LANG['POST_HAS_BEEN_PUBLISHED_SUCCESSFULLY'] = 'Příspěvek byl úspešně publikovaný';
 $_LANG['PLEASE_ENABLE_JAVASCRIPT_IN_YOUR_BROWSER'] = 'Prosím povolte JavaScript ve Vašem prohlížeči';
 $_LANG['INSTALLATION_COMPLETE'] = 'Istalace dokončena';
@@ -120,15 +120,15 @@ $_LANG['EXPERT_MODE'] = 'Expertní mód';
 $_LANG['ADMINISTRATOR_USERNAME'] = 'Administrátorské jméno';
 $_LANG['ADMINISTRATOR_PASSWORD'] = 'Administrátorské heslo';
 $_LANG['ADMINISTRATOR_EMAIL'] = 'Administratorův e-mail';
-$_LANG['WELCOME_TO_NIBBLEBLOG'] = 'Vítajte na Nibbleblog';
+$_LANG['WELCOME_TO_HERMESBLOG'] = 'Vítajte na HermesBlog';
 $_LANG['CHOOSE_YOUR_LANGUAGE'] = 'Zvolte si svůj jazyk';
 $_LANG['WRITING_TEST_ON_CONTENT_DIRECTORY'] = 'Test zapisovaní do adresáře "content"';
 $_LANG['INSTALLATION_LINE1'] = 'Gratulujeme!';
-$_LANG['INSTALLATION_LINE2'] = 'Instalace Nibbleblog je dokončena.';
+$_LANG['INSTALLATION_LINE2'] = 'Instalace HermesBlog je dokončena.';
 $_LANG['INSTALLATION_LINE3'] = 'Pokud chcete spravovat svůj blog, klikněte na nasledující';
 $_LANG['INSTALLATION_LINE4'] = 'nebo navštivte svůj nový blog';
 $_LANG['INSTALLATION_LINE5'] = 'Pokud potřebujete poradit, navštivte naše fórum';
-$_LANG['WELCOME_POST_TITLE'] = 'Vítejte na Nibbleblog';
+$_LANG['WELCOME_POST_TITLE'] = 'Vítejte na HermesBlog';
 
 $_LANG['WELCOME_POST_LINE1'] = 'Gratulujeme, nainstalovali jste blog a funguje.';
 $_LANG['WELCOME_POST_LINE2'] = 'Začněte publikovat z panelu {{DASHBOARD_LINK}}';
@@ -151,7 +151,7 @@ $_LANG['THIS_FIELD_IS_SET_EACH_TIME_YOU_CHANGE_THE_LANGUAGE_OF_THE_BLOG'] = 'Tot
 $_LANG['UNCATEGORIZED'] = 'Nezařazené';
 $_LANG['MUSIC'] = 'Hudba';
 $_LANG['VIDEOS'] = 'Videa';
-$_LANG['POWERED_BY_NIBBLEBLOG'] = 'Poháněno Nibbleblog-om';
+$_LANG['POWERED_BY_HERMESBLOG'] = 'Poháněno HermesBlog-om';
 $_LANG['CUSTOM'] = 'Vlastní';
 $_LANG['SELECT_A_FORMAT_FOR_DISPLAYING_THE_DATES'] = 'Zvolte formát pro zobrazení data, nebo si vytvořte vlastní.';
 $_LANG['ENABLE_WYSIWYG_EDITOR'] = 'Povolit WYSIWYG editor';
@@ -252,7 +252,7 @@ $_LANG['UPLOAD_A_NEW_IMAGE'] = 'Nahrát nový obrázek';
 $_LANG['OR'] = 'nebo';
 $_LANG['SELECT_AN_IMAGE_FROM_YOUR_BAG'] = 'Vyberte obrázek z nahraných';
 
-$_LANG['THERE_IS_A_NEW_VERSION'] = 'Je k dispozici nová verze Nibbleblogu.';
+$_LANG['THERE_IS_A_NEW_VERSION'] = 'Je k dispozici nová verze HermesBlogu.';
 $_LANG['VERSION'] = 'Verze';
 $_LANG['RELEASE_DATE'] = 'Datum vypuštění';
 
@@ -305,8 +305,8 @@ $_LANG['REGIONAL'] = 'Region';
 $_LANG['INSERT_IMAGE_FROM_URL'] = 'Vložit URL obrázku';
 
 $_LANG['BLUDIT_SYNC'] = 'Bludit Sync';
-$_LANG['NIBBLEBLOG_URL_SYNC'] = 'Nibbleblog URL Sync';
-$_LANG['NIBBLEBLOG_KEY_SYNC'] = 'Nibbleblog Key Sync';
+$_LANG['HERMESBLOG_URL_SYNC'] = 'HermesBlog URL Sync';
+$_LANG['HERMESBLOG_KEY_SYNC'] = 'HermesBlog Key Sync';
 
 $_LANG['CATEGORY_NAME'] = 'Název kategorie';
 $_LANG['CATEGORY_SLUG'] = 'Slug kategorie';
@@ -315,7 +315,7 @@ $_LANG['INSTALLED_PLUGINS'] = 'Nainstalované';
 $_LANG['PLUGINS_AVAILABLE_FOR_INSTALL'] = 'K dispozici';
 
 $_LANG['ABSOLUTE_URL_ADDRESS_OF_YOUR_BLOG'] = 'Absolutní URL adresa blogu. Příklad: http://www.domain.com/directory/';
-$_LANG['ABSOLUTE_ADDRESS_THAT_CONTAINS_THE_BLOGS_FILE_SYSTEM'] = 'Absolutní adresa obsahující soubory blogu. Pokud jste nahráli Nibbleblog do rootu, vepište pouze "/". Jestliže je v adresáři, pak vepište cestu k němu. Příklad: "/cesta/ke/blogu/".';
+$_LANG['ABSOLUTE_ADDRESS_THAT_CONTAINS_THE_BLOGS_FILE_SYSTEM'] = 'Absolutní adresa obsahující soubory blogu. Pokud jste nahráli HermesBlog do rootu, vepište pouze "/". Jestliže je v adresáři, pak vepište cestu k němu. Příklad: "/cesta/ke/blogu/".';
 
 $_LANG['COVER_ATTRIBUTE'] = 'Cover attribute';
 

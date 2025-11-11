@@ -16,7 +16,7 @@ if(Post::allow_comments())
 	}
 	else
 	{
-		include('includes/nibbleblog_comments.bit');
+		include('includes/hermesblog_comments.bit');
 	}
 }
 

@@ -106,7 +106,7 @@ $_LANG['USERNAME_AND_PASSWORD'] = 'Brugernavn og adgangskode';
 $_LANG['MANAGE_PLUGINS'] = 'Adminisrer tilføjelser';
 $_LANG['PLUGINS'] = 'Tilføjelser';
 $_LANG['EDIT_POST'] = 'Rediger indlæg';
-$_LANG['SIGN_IN_TO_NIBBLEBLOG_ADMIN_AREA'] = 'Log ind på Nibbleblog administration';
+$_LANG['SIGN_IN_TO_HERMESBLOG_ADMIN_AREA'] = 'Log ind på HermesBlog administration';
 $_LANG['POST_HAS_BEEN_PUBLISHED_SUCCESSFULLY'] = 'Indlægget er blevet udgivet';
 $_LANG['PLEASE_ENABLE_JAVASCRIPT_IN_YOUR_BROWSER'] = 'Aktiver JavaScript i din browser';
 $_LANG['INSTALLATION_COMPLETE'] = 'Installationen er færdig';
@@ -120,15 +120,15 @@ $_LANG['EXPERT_MODE'] = 'Expert tilstand';
 $_LANG['ADMINISTRATOR_USERNAME'] = 'Administrator brugernavn';
 $_LANG['ADMINISTRATOR_PASSWORD'] = 'Administrator kodeord';
 $_LANG['ADMINISTRATOR_EMAIL'] = 'Administrator e-mail';
-$_LANG['WELCOME_TO_NIBBLEBLOG'] = 'Velkommen til Nibbleblog';
+$_LANG['WELCOME_TO_HERMESBLOG'] = 'Velkommen til HermesBlog';
 $_LANG['CHOOSE_YOUR_LANGUAGE'] = 'Vælg dit sprog';
 $_LANG['WRITING_TEST_ON_CONTENT_DIRECTORY'] = 'Skrivetest på "content" mappen';
 $_LANG['INSTALLATION_LINE1'] = 'Tillykke!';
-$_LANG['INSTALLATION_LINE2'] = 'Din Nibbleblog installation er færdig.';
+$_LANG['INSTALLATION_LINE2'] = 'Din HermesBlog installation er færdig.';
 $_LANG['INSTALLATION_LINE3'] = 'For at adminisrere din blog skal du gå til følgende adresse';
 $_LANG['INSTALLATION_LINE4'] = 'eller besøg din nye blog';
 $_LANG['INSTALLATION_LINE5'] = 'Besøg forummet hvis du har brug for hjælp';
-$_LANG['WELCOME_POST_TITLE'] = 'Velkommen til Nibbleblog';
+$_LANG['WELCOME_POST_TITLE'] = 'Velkommen til HermesBlog';
 
 $_LANG['WELCOME_POST_LINE1'] = 'Tillykke. Din blog er nu installeret og klar til brug.';
 $_LANG['WELCOME_POST_LINE2'] = 'Gå i gang med at udgive fra dit betjeningspanel {{DASHBOARD_LINK}}';
@@ -151,7 +151,7 @@ $_LANG['THIS_FIELD_IS_SET_EACH_TIME_YOU_CHANGE_THE_LANGUAGE_OF_THE_BLOG'] = 'Det
 $_LANG['UNCATEGORIZED'] = 'Ukategoriseret';
 $_LANG['MUSIC'] = 'Musik';
 $_LANG['VIDEOS'] = 'Videoer';
-$_LANG['POWERED_BY_NIBBLEBLOG'] = 'Drevet af Nibbleblog';
+$_LANG['POWERED_BY_HERMESBLOG'] = 'Drevet af HermesBlog';
 $_LANG['CUSTOM'] = 'Brugerdefineret';
 $_LANG['SELECT_A_FORMAT_FOR_DISPLAYING_THE_DATES'] = 'Vælg et format til visning af datoer eller brugerdefineret indstilling, så du kan oprette din egen.';
 $_LANG['ENABLE_WYSIWYG_EDITOR'] = 'Aktiver WYSIWYG redigering';
@@ -255,7 +255,7 @@ $_LANG['UPLOAD_A_NEW_IMAGE'] = 'Upload et nyt billede';
 $_LANG['OR'] = 'eller';
 $_LANG['SELECT_AN_IMAGE_FROM_YOUR_BAG'] = 'Vælg et eksisterende billede';
 
-$_LANG['THERE_IS_A_NEW_VERSION'] = 'Der er en ny version af Nibbleblog tilgængelig';
+$_LANG['THERE_IS_A_NEW_VERSION'] = 'Der er en ny version af HermesBlog tilgængelig';
 $_LANG['VERSION'] = 'Version';
 $_LANG['RELEASE_DATE'] = 'Udgivelsesdato';
 
@@ -312,8 +312,8 @@ $_LANG['REGIONAL'] = 'Regionalt';
 $_LANG['INSERT_IMAGE_FROM_URL'] = 'Indsæt billede fra link';
 
 $_LANG['BLUDIT_SYNC'] = 'Bludit Sync';
-$_LANG['NIBBLEBLOG_URL_SYNC'] = 'Nibbleblog URL Sync';
-$_LANG['NIBBLEBLOG_KEY_SYNC'] = 'Nibbleblog Key Sync';
+$_LANG['HERMESBLOG_URL_SYNC'] = 'HermesBlog URL Sync';
+$_LANG['HERMESBLOG_KEY_SYNC'] = 'HermesBlog Key Sync';
 
 $_LANG['CATEGORY_NAME'] = 'Kategori navn';
 $_LANG['CATEGORY_SLUG'] = 'Kategori slug';
@@ -322,7 +322,7 @@ $_LANG['INSTALLED_PLUGINS'] = 'Installerede tilføjelser';
 $_LANG['PLUGINS_AVAILABLE_FOR_INSTALL'] = 'Tilføjelser til rådighed for installation';
 
 $_LANG['ABSOLUTE_URL_ADDRESS_OF_YOUR_BLOG'] = 'Absolute URL address of your blog. Example http://www.domain.com/directory/';
-$_LANG['ABSOLUTE_ADDRESS_THAT_CONTAINS_THE_BLOGS_FILE_SYSTEM'] = 'Absolute address that contains the blog\'s file system, if you upload the content of Nibbleblog to your root you should only put a "/", and if you upload it into another directory then it should be "/directory/".';
+$_LANG['ABSOLUTE_ADDRESS_THAT_CONTAINS_THE_BLOGS_FILE_SYSTEM'] = 'Absolute address that contains the blog\'s file system, if you upload the content of HermesBlog to your root you should only put a "/", and if you upload it into another directory then it should be "/directory/".';
 
 $_LANG['COVER_ATTRIBUTE'] = 'Cover egenskab';
 

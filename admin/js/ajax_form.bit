@@ -43,7 +43,7 @@ $(document).ready(function() {
 		window.clearTimeout(timer);
 		timer = window.setTimeout(function(){save()},time_to_save);
 
-		console.log("Nibbleblog: Timer set");
+		console.log("HermesBlog: Timer set");
 	}
 
 	function save()
@@ -61,7 +61,7 @@ $(document).ready(function() {
 
 					show_alert(text, 3500);
 
-					console.log("Nibbleblog: Form saved");
+					console.log("HermesBlog: Form saved");
 				}
 		});
 	}

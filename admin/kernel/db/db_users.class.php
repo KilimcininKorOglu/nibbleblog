@@ -1,11 +1,11 @@
 <?php
 
 /*
- * Nibbleblog -
- * http://www.nibbleblog.com
+ * HermesBlog -
+ * http://www.hermesblog.com
  * Author Diego Najar
 
- * All Nibbleblog code is released under the GNU General Public License.
+ * All HermesBlog code is released under the GNU General Public License.
  * See COPYRIGHT.txt and LICENSE.txt.
 */
 
@@ -90,7 +90,7 @@ class DB_USERS {
 			$node->addChild('date', $current_time);
 			$node->addChild('fail_count', 1);
 
-			error_log('Nibbleblog: Blacklist - New IP added - '.$ip);
+			error_log('HermesBlog: Blacklist - New IP added - '.$ip);
 		}
 		else
 		{
@@ -103,14 +103,14 @@ class DB_USERS {
 				$node[0]->setChild('date', $current_time);
 				$node[0]->setChild('fail_count', 1);
 
-				error_log('Nibbleblog: Blacklist - IP renewed because is expired - '.$ip);
+				error_log('HermesBlog: Blacklist - IP renewed because is expired - '.$ip);
 			}
 			else
 			{
 				$fail_count += 1;
 				$node[0]->setChild('fail_count', $fail_count);
 
-				error_log('Nibbleblog: Blacklist - IP fail count('.$fail_count.') - '.$ip);
+				error_log('HermesBlog: Blacklist - IP fail count('.$fail_count.') - '.$ip);
 			}
 		}
 

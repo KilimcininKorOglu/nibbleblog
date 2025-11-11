@@ -1,11 +1,11 @@
 <?php
 
 /*
- * Nibbleblog -
- * http://www.nibbleblog.com
+ * HermesBlog -
+ * http://www.hermesblog.com
  * Author Diego Najar
 
- * All Nibbleblog code is released under the GNU General Public License.
+ * All HermesBlog code is released under the GNU General Public License.
  * See COPYRIGHT.txt and LICENSE.txt.
 */
 
@@ -16,7 +16,7 @@ header('Content-type: text/html; charset=utf-8');
 if( !file_exists('content/private') )
 {
 	header('Location:install.php');
-	exit('<a href="./install.php">click to install Nibbleblog</a>');
+	exit('<a href="./install.php">click to install HermesBlog</a>');
 }
 
 // Boot

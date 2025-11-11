@@ -72,7 +72,7 @@ if( $filename )
 			}
 		}
 
-		// Generate thumbnail for Nibbleblog media
+		// Generate thumbnail for HermesBlog media
 		$Resize->setImage(PATH_UPLOAD.$filename.'_'.$number.'_o.'.$ext, '110', '110', 'crop');
 		$Resize->saveImage(PATH_UPLOAD.$filename.'_'.$number.'_nbmedia.jpg', 98, true);
 

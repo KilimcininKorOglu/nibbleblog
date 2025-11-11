@@ -106,7 +106,7 @@ $_LANG['USERNAME_AND_PASSWORD'] = 'Användarnamn & Lösenord';
 $_LANG['MANAGE_PLUGINS'] = 'Hantera tillägg';
 $_LANG['PLUGINS'] = 'Tillägg';
 $_LANG['EDIT_POST'] = 'Editera inlägg';
-$_LANG['SIGN_IN_TO_NIBBLEBLOG_ADMIN_AREA'] = 'Administrationsinloggning';
+$_LANG['SIGN_IN_TO_HERMESBLOG_ADMIN_AREA'] = 'Administrationsinloggning';
 $_LANG['POST_HAS_BEEN_PUBLISHED_SUCCESSFULLY'] = 'Inlägget har publicerats med lyckat resultat';
 $_LANG['PLEASE_ENABLE_JAVASCRIPT_IN_YOUR_BROWSER'] = 'Vänligen aktivera JavaScript i din webbläsare';
 $_LANG['INSTALLATION_COMPLETE'] = 'Installation genomförd';
@@ -120,15 +120,15 @@ $_LANG['EXPERT_MODE'] = 'Expert läge';
 $_LANG['ADMINISTRATOR_USERNAME'] = 'Administratörens användarnamn';
 $_LANG['ADMINISTRATOR_PASSWORD'] = 'Administratörens lösenord';
 $_LANG['ADMINISTRATOR_EMAIL'] = 'Administratörens e-post';
-$_LANG['WELCOME_TO_NIBBLEBLOG'] = 'Välkommen till Nibbleblog';
+$_LANG['WELCOME_TO_HERMESBLOG'] = 'Välkommen till HermesBlog';
 $_LANG['CHOOSE_YOUR_LANGUAGE'] = 'Välj ditt språk';
 $_LANG['WRITING_TEST_ON_CONTENT_DIRECTORY'] = 'Skriver test till "content" mappen';
 $_LANG['INSTALLATION_LINE1'] = 'Gratulerar!';
-$_LANG['INSTALLATION_LINE2'] = 'Din Nibbleblog installation är nu genomförd.';
+$_LANG['INSTALLATION_LINE2'] = 'Din HermesBlog installation är nu genomförd.';
 $_LANG['INSTALLATION_LINE3'] = 'För att hantera din blogg gå till följande adress';
 $_LANG['INSTALLATION_LINE4'] = 'eller besök din nya blogg';
 $_LANG['INSTALLATION_LINE5'] = 'Om du behöver support vänligen besök forumet';
-$_LANG['WELCOME_POST_TITLE'] = 'Välkommen till Nibbleblog';
+$_LANG['WELCOME_POST_TITLE'] = 'Välkommen till HermesBlog';
 
 $_LANG['WELCOME_POST_LINE1'] = 'Gratulerar, din blogg är installerad och redo.';
 $_LANG['WELCOME_POST_LINE2'] = 'Börja blogga {{DASHBOARD_LINK}}';
@@ -151,7 +151,7 @@ $_LANG['THIS_FIELD_IS_SET_EACH_TIME_YOU_CHANGE_THE_LANGUAGE_OF_THE_BLOG'] = 'Det
 $_LANG['UNCATEGORIZED'] = 'Okategoriserad';
 $_LANG['MUSIC'] = 'Musik';
 $_LANG['VIDEOS'] = 'Videos';
-$_LANG['POWERED_BY_NIBBLEBLOG'] = 'Drivs av Nibbleblog';
+$_LANG['POWERED_BY_HERMESBLOG'] = 'Drivs av HermesBlog';
 $_LANG['CUSTOM'] = 'Anpassa';
 $_LANG['SELECT_A_FORMAT_FOR_DISPLAYING_THE_DATES'] = 'Välj ett datumformat eller anpassat alternativ så du kan skapa ditt eget.';
 $_LANG['ENABLE_WYSIWYG_EDITOR'] = 'Aktivera WYSIWYG editorn';
@@ -255,7 +255,7 @@ $_LANG['UPLOAD_A_NEW_IMAGE'] = 'Ladda upp en ny bild';
 $_LANG['OR'] = 'Eller';
 $_LANG['SELECT_AN_IMAGE_FROM_YOUR_BAG'] = 'Välj en bild ifrån media';
 
-$_LANG['THERE_IS_A_NEW_VERSION'] = 'Det finns en ny version av Nibbleblog tillgänglig.';
+$_LANG['THERE_IS_A_NEW_VERSION'] = 'Det finns en ny version av HermesBlog tillgänglig.';
 $_LANG['VERSION'] = 'Version';
 $_LANG['RELEASE_DATE'] = 'Releasedatum';
 
@@ -312,8 +312,8 @@ $_LANG['REGIONAL'] = 'Regionala';
 $_LANG['INSERT_IMAGE_FROM_URL'] = 'Ladda upp bild från URL';
 
 $_LANG['BLUDIT_SYNC'] = 'Bludit Synkronisering';
-$_LANG['NIBBLEBLOG_URL_SYNC'] = 'Nibbleblog URL Synkronisering';
-$_LANG['NIBBLEBLOG_KEY_SYNC'] = 'Nibbleblog Nyckel Synkronisering';
+$_LANG['HERMESBLOG_URL_SYNC'] = 'HermesBlog URL Synkronisering';
+$_LANG['HERMESBLOG_KEY_SYNC'] = 'HermesBlog Nyckel Synkronisering';
 
 $_LANG['CATEGORY_NAME'] = 'Kategorinamn';
 $_LANG['CATEGORY_SLUG'] = 'Kategorislug';
@@ -322,7 +322,7 @@ $_LANG['INSTALLED_PLUGINS'] = 'Installerade tillägg';
 $_LANG['PLUGINS_AVAILABLE_FOR_INSTALL'] = 'Tillägg tillgängliga för installation';
 
 $_LANG['ABSOLUTE_URL_ADDRESS_OF_YOUR_BLOG'] = 'Absolut URL adress till din blogg. Example http://www.domain.se/mapp/';
-$_LANG['ABSOLUTE_ADDRESS_THAT_CONTAINS_THE_BLOGS_FILE_SYSTEM'] = 'Absolut URL adress för bloggen, om du laddar upp Nibbleblog till roten ska du endast fylla i ett snedstreck "/", Och om du laddar upp den till en undermapp ska det vara "/mapp/".';
+$_LANG['ABSOLUTE_ADDRESS_THAT_CONTAINS_THE_BLOGS_FILE_SYSTEM'] = 'Absolut URL adress för bloggen, om du laddar upp HermesBlog till roten ska du endast fylla i ett snedstreck "/", Och om du laddar upp den till en undermapp ska det vara "/mapp/".';
 
 $_LANG['COVER_ATTRIBUTE'] = 'Omslagsattribut';
 

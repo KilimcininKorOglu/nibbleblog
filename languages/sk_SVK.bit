@@ -106,7 +106,7 @@ $_LANG['USERNAME_AND_PASSWORD'] = 'Meno a Heslo';
 $_LANG['MANAGE_PLUGINS'] = 'Spravovať zásuvné moduly';
 $_LANG['PLUGINS'] = 'Zásuvné moduly';
 $_LANG['EDIT_POST'] = 'Upraviť post';
-$_LANG['SIGN_IN_TO_NIBBLEBLOG_ADMIN_AREA'] = 'Prihlasiť sa do Nibbleblog administračnej zóny';
+$_LANG['SIGN_IN_TO_HERMESBLOG_ADMIN_AREA'] = 'Prihlasiť sa do HermesBlog administračnej zóny';
 $_LANG['POST_HAS_BEEN_PUBLISHED_SUCCESSFULLY'] = 'Post bol úspešne publikovaný';
 $_LANG['PLEASE_ENABLE_JAVASCRIPT_IN_YOUR_BROWSER'] = 'Prosím povolte JavaScript vo vašom prehliadači';
 $_LANG['INSTALLATION_COMPLETE'] = 'Inštalácia dokončená';
@@ -120,15 +120,15 @@ $_LANG['EXPERT_MODE'] = 'Expertný mód';
 $_LANG['ADMINISTRATOR_USERNAME'] = 'Administratorské meno';
 $_LANG['ADMINISTRATOR_PASSWORD'] = 'Administratorské heslo';
 $_LANG['ADMINISTRATOR_EMAIL'] = 'Administratorov e-mail';
-$_LANG['WELCOME_TO_NIBBLEBLOG'] = 'Vitajte na Nibbleblog';
+$_LANG['WELCOME_TO_HERMESBLOG'] = 'Vitajte na HermesBlog';
 $_LANG['CHOOSE_YOUR_LANGUAGE'] = 'Zvol si svoj jazyk';
 $_LANG['WRITING_TEST_ON_CONTENT_DIRECTORY'] = 'Test zapisovania do adresáru "content"';
 $_LANG['INSTALLATION_LINE1'] = 'Gratulujeme!';
-$_LANG['INSTALLATION_LINE2'] = 'Inštalácia Nibbleblog je práve dokončená.';
+$_LANG['INSTALLATION_LINE2'] = 'Inštalácia HermesBlog je práve dokončená.';
 $_LANG['INSTALLATION_LINE3'] = 'k chcete spravovať svoj blog, kliknite na nasledujúci link';
 $_LANG['INSTALLATION_LINE4'] = 'alebo navštívte svoj nový blog';
 $_LANG['INSTALLATION_LINE5'] = 'Ak potrebujete podporu, navštívte náše fórum';
-$_LANG['WELCOME_POST_TITLE'] = 'Vitajte na Nibbleblog';
+$_LANG['WELCOME_POST_TITLE'] = 'Vitajte na HermesBlog';
 
 $_LANG['WELCOME_POST_LINE1'] = 'Gratulujeme, nainštalovali ste blog a funguje.';
 $_LANG['WELCOME_POST_LINE2'] = 'Začnite publikovať z vašeho panelu {{DASHBOARD_LINK}}';
@@ -151,7 +151,7 @@ $_LANG['THIS_FIELD_IS_SET_EACH_TIME_YOU_CHANGE_THE_LANGUAGE_OF_THE_BLOG'] = 'Tot
 $_LANG['UNCATEGORIZED'] = 'Nekategorizované';
 $_LANG['MUSIC'] = 'Hudba';
 $_LANG['VIDEOS'] = 'Videá';
-$_LANG['POWERED_BY_NIBBLEBLOG'] = 'Poháňané Nibbleblog-om';
+$_LANG['POWERED_BY_HERMESBLOG'] = 'Poháňané HermesBlog-om';
 $_LANG['CUSTOM'] = 'Užívateľské';
 $_LANG['SELECT_A_FORMAT_FOR_DISPLAYING_THE_DATES'] = 'Zvolte formát pre zobrazovanie dátumu, alebo si vytvorte vlastný.';
 $_LANG['ENABLE_WYSIWYG_EDITOR'] = 'Povoliť WYSIWYG editor';
@@ -252,7 +252,7 @@ $_LANG['UPLOAD_A_NEW_IMAGE'] = 'Nahrať nový obrázok';
 $_LANG['OR'] = 'alebo';
 $_LANG['SELECT_AN_IMAGE_FROM_YOUR_BAG'] = 'Vyberte obrázok z vašeho súboru';
 
-$_LANG['THERE_IS_A_NEW_VERSION'] = 'Nová verzia Nibbleblog k dispozícií';
+$_LANG['THERE_IS_A_NEW_VERSION'] = 'Nová verzia HermesBlog k dispozícií';
 $_LANG['VERSION'] = 'Verzia';
 $_LANG['RELEASE_DATE'] = 'Dátum vydania';
 
@@ -310,8 +310,8 @@ $_LANG['REGIONAL'] = 'Regionálne nastavenia';
 $_LANG['INSERT_IMAGE_FROM_URL'] = 'Vložte URL na obrázok';
 
 $_LANG['BLUDIT_SYNC'] = 'Bludit Sync';
-$_LANG['NIBBLEBLOG_URL_SYNC'] = 'Nibbleblog URL Sync';
-$_LANG['NIBBLEBLOG_KEY_SYNC'] = 'Nibbleblog Key Sync';
+$_LANG['HERMESBLOG_URL_SYNC'] = 'HermesBlog URL Sync';
+$_LANG['HERMESBLOG_KEY_SYNC'] = 'HermesBlog Key Sync';
 
 $_LANG['CATEGORY_NAME'] = 'Názov kategórie';
 $_LANG['CATEGORY_SLUG'] = 'Skratka kategorie';
@@ -320,7 +320,7 @@ $_LANG['INSTALLED_PLUGINS'] = 'Nainštalované zásuvné moduly';
 $_LANG['PLUGINS_AVAILABLE_FOR_INSTALL'] = 'Zásuvné moduly k dispozícií na inštaláciu';
 
 $_LANG['ABSOLUTE_URL_ADDRESS_OF_YOUR_BLOG'] = 'Absolute URL address of your blog. Example http://www.domain.com/directory/';
-$_LANG['ABSOLUTE_ADDRESS_THAT_CONTAINS_THE_BLOGS_FILE_SYSTEM'] = 'Absolute address that contains the blog\'s file system, if you upload the content of Nibbleblog to your root you should only put a "/", and if you upload it into another directory then it should be "/directory/".';
+$_LANG['ABSOLUTE_ADDRESS_THAT_CONTAINS_THE_BLOGS_FILE_SYSTEM'] = 'Absolute address that contains the blog\'s file system, if you upload the content of HermesBlog to your root you should only put a "/", and if you upload it into another directory then it should be "/directory/".';
 
 $_LANG['COVER_ATTRIBUTE'] = 'Cover attribute';
 
