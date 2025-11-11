@@ -253,13 +253,11 @@ class Login {
 		if(empty($agent))
 			$agent = 'Nibbleblog/4.0 (Mr Nibbler Protocol)';
 
-		// User IP
-		if(getenv('HTTP_X_FORWARDED_FOR'))
-			$ip = getenv('HTTP_X_FORWARDED_FOR');
-		elseif(getenv('HTTP_CLIENT_IP'))
-			$ip = getenv('HTTP_CLIENT_IP');
-		else
-			$ip = getenv('REMOTE_ADDR');
+		// User IP - Use REMOTE_ADDR only to prevent spoofing
+		// X-Forwarded-For and HTTP_CLIENT_IP headers can be easily manipulated by attackers
+		$ip = getenv('REMOTE_ADDR');
+		if(empty($ip))
+			$ip = '0.0.0.0';
 
 		// Hash
 		return sha1($agent . $ip);
